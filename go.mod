@@ -4,6 +4,7 @@ go 1.15
 
 require (
 	github.com/astaxie/beego v1.12.3
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-ini/ini v1.62.0
 	github.com/go-playground/validator/v10 v10.4.1 // indirect
@@ -25,7 +26,8 @@ require (
 
 replace (
 	github.com/Bao0ne/gin-example/conf => C:\Users\21505\Desktop\code/gin-example/pkg/conf
-	github.com/Bao0ne/gin-example/middleware => C:\Users\21505\Desktop\code/gin-example/middleware
+	github.com/Bao0ne/gin-example/middleware => C:\Users\21505\Desktop/code/gin-example/middleware
+		github.com/Bao0ne/gin-example/middleware/jwt => C:\Users\21505\Desktop/code/gin-example/middleware/jwt
 	github.com/Bao0ne/gin-example/models => C:\Users\21505\Desktop\code/gin-example/models
 	github.com/Bao0ne/gin-example/pkg/e => C:\Users\21505\Desktop\code/gin-example/pkg/e
 	github.com/Bao0ne/gin-example/pkg/setting => C:\Users\21505\Desktop\code/gin-example/pkg/setting
